@@ -1,3 +1,6 @@
+REM este BAT solo sirve para DOS, con DJGPP+ALLEGRO 4
+REM incluye los datos en el exe, y luego lo comprime
+REM TODO : hacer un makefile para linux y windows, usar AlMake (otro de mis proyectos)
 @echo off
 
 gcc -s -Wall -O3 main.c -o ../bin/nachoblast.exe -lalleg
