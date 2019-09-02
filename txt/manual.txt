@@ -1,0 +1,223 @@
+------------------------------------------------------------------------------
+Nacho Blast v1.0
+------------------------------------------------------------------------------
+
+Copyright (c) 2002, Kronoman
+Programa gratuito.
+En memoria de mi querido padre.
+Gracias a Nacho Serra por prestarse para ser el heroe.
+
+------------------------------------------------------------------------------
+LICENCIA DE USO
+------------------------------------------------------------------------------
+
+!!ATENCION!!
+LA INSTALACION O USO DEL SOFTWARE INDICA QUE USTED ACEPTA LA
+SIGUIENTE LICENCIA DE USO; SI NO LA ACEPTA, USTED NO PUEDE USAR EL SOFTWARE:
+
+ESTE SOFTWARE ES DISTRIBUIDO GRATUITAMENTE;
+SI USTED REDISTRIBUYE EL SOFTWARE, DEBE SER GRATUITAMENTE.
+ESTE SOFTWARE ES FREEWARE (TOTALMENTE GRATIS!!!)
+USTED PUEDE COPIARLO, Y COMPARTIRLO CON LAS PERSONAS QUE QUIERA.
+USTED PUEDE DARSELO A SUS AMIGOS O FAMILIARES O CONOCIDOS.
+
+USTED NO PUEDE VENDER EL SOFTWARE Y/O SUS COMPONENTES Y/O TEGNOLOGIA O GANAR
+DINERO U OBTENER CUALQUIER TIPO DE GANANCIA CON EL, SUS ACCIONES,
+O MATERIAL RELACIONADO.
+NO PUEDE HACER TRABAJOS DERIVADOS DEL SOFTWARE O SU MATERIAL.
+NO PUEDE HACER INGENIERIA-INVERSA, DESCOMPILARLO, DESENSAMBLARLO, O INTENTAR
+OBTENER EL CODIGO FUENTE DEL SOFTWARE.
+USTED NO PUEDE MANIPULAR Y/O ALTERAR LOS COMPONENTES QUE FORMAN ESTE SOFTWARE,
+USTED NO PUEDE VENDER, RENTAR, ALQUILAR, SUBLICENCIAR Y/O TRANSFERIR LOS
+DERECHOS DE ESTE SOFTWARE.
+
+ESTE SOFTWARE ES LICENCIADO Y NO VENDIDO.
+ESTE SOFTWARE, SU CODIGO FUENTE, GRAFICOS, SONIDOS, HISTORIA, DOCUMENTACION
+Y TODO EL MATERIAL RELACIONADO SON PRODUCTOS PROPIETARIOS DE KRONOMAN.
+EL SOFTWARE ESTA PROTEGIDO POR LAS LEYES DE LA PROPIEDAD INTELECTUAL Y OTRAS.-
+USTED TIENE SOLAMENTE EL DERECHO PARA USAR EL SOFTWARE Y NO ADQUIERE OTROS
+DERECHOS, EXPRESOS O IMPLICADOS, MAS QUE LOS ESPECIFICADOS EN ESTA LICENCIA.-
+EL AUTOR PUEDE EN CUALQUIER MOMENTO RETENER TODOS LOS DERECHOS, TITULOS,
+INTERESES, INCLUYENDO LOS DERECHOS DE PROPIEDAD INTELECTUAL, DEL SOFTWARE.
+
+** NEGACION DE GARANTIA **
+ESTE SOFTWARE ES PROVEIDO GRATUITAMENTE "COMO ES", SIN GARANTIAS DE NINGUN
+TIPO, EXPRESAS O IMPLICITAS, INCLUYENDO PERO NO LIMITANDO LAS GARANTIAS DE
+QUE ESTA LIBRE DE DEFECTOS, QUE FUNCIONA O QUE SIRVE PARA UN
+PROPOSITO PARTICULAR.
+EL ENTERO RIESGO, ASI COMO LA CALIDAD Y PERFORMANCE DEL SOFTWARE ES SUYA.
+SI EL SOFTWARE FUERA DEFECTUOSO, USTED ASUME EL COSTO DE TODO EL SERVICIO,
+REPARACION, O CORRECION NECESARIOS U OTROS COSTOS.
+
+** LIMITACION DE RESPONSABILIDAD **
+DE NINGUNA MANERA, EL AUTOR, LOS POSEEDORES DE LOS DERECHOS DE AUTOR,
+U OTRAS TERCERAS PARTES QUE REDISTRIBUYERAN EL SOFTWARE SERAN RESPONSABLES POR
+DA¥OS, INCLUYENDO CUALQUIERA GENERAL, ESPECIAL, INCIDENTAL, O DA¥OS CONSECUENTES
+QUE SURGIERAN DEL USO O LA INABILIDAD DE USAR EL SOFTWARE (INCLUYENDO, PERO NO
+LIMITADO A, PERDIDAD DE DATOS, DATOS IMPRECISOS, PERDIDA DE GANANCIAS,
+PERDIDA DE NEGOCIOS, INFORMACION, INTERRUPCIONES EN LOS NEGOCIOS,
+PERDIDAS SOSTENIDAS POR USTED O TERCERAS PARTES, O UNA FALLA DEL SOFTWARE
+PARA OPERAR CON CUALQUIER OTRO SOFTWARE), INCLUSO SI EL AUTOR,
+LOS POSEEDORES DE LOS DERECHOS DE AUTOR U OTRAS TERCERAS
+PARTES HAN SIDO AVISADAS DE LA POSIBILIDAD DE TALES DA¥OS.-
+
+TERMINACION:
+LA VIOLACION O NO ACEPTACION DE CUALQUIERA DE LOS PUNTOS ANTERIORES DE LA
+LICENCIA INMEDIATAMENTE E INCONDICIONALMENTE TERMINA SU LICENCIA.
+
+
+------------------------------------------------------------------------------
+Descripcion del juego
+------------------------------------------------------------------------------
+
+Nacho Blaster es la demostracion de un engine de naves espaciales generico.
+El engine puede ser usado de base para crear juegos espaciales mas complejos,
+simplemente cambiando los graficos y un poco del codigo.
+Kronoman
+
+Creado durante Marzo y Abril del 2002.-
+
+------------------------------------------------------------------------------
+Como jugar?
+------------------------------------------------------------------------------
+El objetivo del juego es matar a todos los alienigenas que invaden la tierra.
+Para esto, usted movera al capitan Nacho usando el teclado asi:
+
+Controle la nave con:
+    <Flecha Arriba>, <Flecha Abajo>
+    <Flecha Izquierda, <Flecha Derecha>
+Dispare usando la <Barra Espaciadora>
+
+Teclas adicionales:
+<P> realiza una pausa en el juego
+<ESC> le permite finalizar o reiniciar el juego
+<F7> le permite autodestruir su nave (muera con honor, no deje que el enemigo lo capture!)
+<F12> toma una captura de pantalla en formato BMP del juego
+
+Al matar a un enemigo, a veces este liberara un item o premio, que le sera util.
+
+El juego consta de 10 niveles de intensa lucha, al final de los cuales,
+podra ver el gran final de la historia...
+
+------------------------------------------------------------------------------
+Problemas y soluciones, parametros del juego:
+------------------------------------------------------------------------------
+Antes de nada, el juego precisa al menos una PC 386 con DOS 2.0 o superior,
+y al menos 1 mb de memoria RAM, ademas de una placa de video VGA (320x200x256c)
+
+Los siguientes parametros pueden ayudarle a resolver problemas del juego:
+Uso: nachoblast.exe [parametros]; ejemplo nachoblast.exe -nosound
+
+Parametro       Efecto
+-?              Muestra esta ayuda
+
+-safe           Coloca el juego en modo 'seguro'.
+                Es decir, coloca el juego en baja resolucion (320x200)
+                y sin sonido, con lo cual, funciona bien incluso en PCs viejas.
+                
+-nosound        Desactiva TOTALMENTE el SONIDO, ideal en caso de que el
+                programa funcione lento, o se trabe al no reconocer
+                su placa de sonido.-
+
+-320x200        Coloca el video en modo VGA 320x200; ideal para placas de
+                video antiguas, lentas, o que no tienen soporte VESA.-
+
+-320x240        Coloca el video en modo X de VGA 320x240.-
+
+-800x600        Coloca el video en modo SVGA 800x600.-
+                Requiere una placa de video VESA 2.0 o superior
+
+-1024x768       Coloca el video en modo SVGA 1024x768.-
+                Requiere una placa de video VESA 2.0 o superior
+
+NOTA: el modo de video por default del juego es 640x480 VESA; y el sonido
+intenta ser autodetectado (se recomienda una placa Sound Blaster genuina).-
+
+------------------------------------------------------------------------------
+Historia del juego
+------------------------------------------------------------------------------
+
+......
+
+Una raza se debate al borde
+de la extincion...
+
+...una era de agonia llega
+a su fin...
+
+...lejos quedaron los pecados
+de Adam y Evan...
+
+La batalla final se aproxima
+grandes ejercitos fracasaron...
+grandes pesares, grandes dolores,
+combates perdidos, una civilizacion
+en caida final al abismo...
+
+...lluvia de sopanca
+sobre las ciudades....
+
+...fuego desvastador
+sobre los deseos
+de victoria...
+
+El tercer planeta se
+acerca a su fin,
+los invasores preparan
+su ataque final
+sobre las ruinas
+de la sociedad civilizada...
+
+...pero una esperanza
+brilla en las tinieblas...
+...el capitan Nacho
+se prepara para la batalla final...
+
+...el destino de la humanidad
+reposa sobre los hombros de Nacho...
+
+...tinieblas...
+...tinieblas...
+...como burbujas de champan
+estallando en mi boca...
+
+......
+
+------------------------------------------------------------------------------
+Creditos adicionales
+------------------------------------------------------------------------------
+ESTE SOFTWARE, SU CODIGO FUENTE, GRAFICOS, SONIDOS, HISTORIA, DOCUMENTACION
+Y TODO EL MATERIAL RELACIONADO SON PRODUCTOS ABSOLUTAMENTE PROPIETARIOS
+DE KRONOMAN.
+
+------------------------------------------------------------------------------
+Agradecimientos
+------------------------------------------------------------------------------
+
+El programa fue hecho en C++ usando DJGPP.-
+Los graficos fueron hechos usando The GIMP.-
+El codigo se edito usando Rhide.-
+
++----------------------------------+  +------------------------------------+  
+| Nacho Blast(r)                   |  | Control de calidad y testeo:       |  
+|                                  |  | Viky, Jorgito, Cotula, Nacho,      |  
+| Programado por Kronoman          |  | Yaco, Joaco, Juane, Iron, ¥anga,   |  
+| Sonidos originales por Nacho     |  | Eddy, Super, Velia, Natalia,       |  
+| Fotografias por Juane            |  | Elisa, Rocky, Melina, Vero,        |  
+| Graficos por Kronoman            |  | Yunni, Claudia, Ezequiel, Martin.  |  
+| Traduccion por Kronoman          |  |                                    |  
+| Guion por Kronoman               |  | Gracias a todos los que hicieron   |  
+|                                  |  | posible este proyecto...           |  
+| Copyright(c) 2002, Kronoman      |  | Y gracias a los que crearon DJGPP, |  
+| En memoria de mi querido padre   |  | el mejor compilador de C++ del     |  
+| Dise¤ado en Argentina!           |  | universo!!!!                       |  
++----------------------------------+  +------------------------------------+  
+                                                                                
++----------------------------------+  +------------------------------------+  
+|Programa GRATUITO-Copialo GRATIS! |  |Prohibida la venta/lucro/renta/etc..|  
++----------------------------------+  +------------------------------------+  
+                                                                                
+------------------------------------------------------------------------------
+Documento escrito por Kronoman
+Copyright (c) 2002, Kronoman.
+------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+Nacho Blast(r)
+(c) 2002, Kronoman
+En memoria de mi querido padre.
+Gracias a Nacho Serra por prestarse para ser el heroe.
+
+Nacho Blaster es la demostracion de un engine de naves espaciales generico.
+El engine puede ser usado de base para crear juegos espaciales mas complejos,
+simplemente cambiando los graficos y un poco del codigo.
+Kronoman
+
+Marzo - Abril 2002

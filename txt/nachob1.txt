@@ -1,0 +1,23 @@
+                                                                                
+  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  
+  ³ Nacho Blast(r)                   ³  ³ Control de calidad y testeo:       ³  
+  ³                                  ³  ³ Viky, Jorgito, Cotula, Nacho,      ³  
+  ³ Programado por Kronoman          ³  ³ Yaco, Joaco, Juane, Iron, ¥anga,   ³  
+  ³ Sonidos originales por Nacho     ³  ³ Eddy, Super, Velia, Natalia,       ³  
+  ³ Fotografias por Juane            ³  ³ Elisa, Rocky, Melina, Vero,        ³  
+  ³ Graficos por Kronoman            ³  ³ Yunni, Claudia, Ezequiel, Martin.  ³  
+  ³ Traduccion por Kronoman          ³  ³                                    ³  
+  ³ Guion por Kronoman               ³  ³ Gracias a todos los que hicieron   ³  
+  ³                                  ³  ³ posible este proyecto...           ³  
+  ³ Copyright(c) 2002, Kronoman      ³  ³ Y gracias a los que crearon DJGPP, ³  
+  ³ En memoria de mi querido padre   ³  ³ el mejor compilador de C++ del     ³  
+  ³ Dise¤ado en Argentina!           ³  ³ universo!!!!                       ³  
+  ³ ÜÜÜÜÜ                            ³  ³                                    ³  
+  ³ ßßßßß                            ³  ³                                    ³  
+  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  
+                                                                                
+  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  
+  ³Programa GRATUITO-Copialo GRATIS! ³  ³Prohibida la venta/lucro/renta/etc..³  
+  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  ÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅ  
+                                                                                
+                                                                                
