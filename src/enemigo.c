@@ -22,9 +22,9 @@ void init_enemigo(int vivos)
 
  for (i = 0; i < MAX_ENE; i++)
     {
-     ene[i].y = (random()%480)*10; // pantalla virtual = 640x480
+     ene[i].y = (rand()%480)*10; // pantalla virtual = 640x480
      ene[i].dx = ene[i].dy = 0;
-     ene[i].x = ((random()%320)+320)*10; 
+     ene[i].x = ((rand()%320)+320)*10; 
 
      ene[i].energia = ENE_DEAD;  // todos muertos
      ene[i].last_shoot = 0;
@@ -50,17 +50,17 @@ for (i = 0; i < MAX_ENE; i++)
      if (ene[i].energia > ENE_DEAD )
      {
       // solo dispara si esta vivo
-      if (ene[i].energia > 0 ) if (random()%100 < 25) agregar_disparo_ene(i); // disparar
+      if (ene[i].energia > 0 ) if (rand()%100 < 25) agregar_disparo_ene(i); // disparar
 
          if ((ene[i].dx == 0) || (ene[i].dy == 0))
             {
-              if (random()%100 < 50)
+              if (rand()%100 < 50)
                   m = -1;
               else
                   m = 1;
 
-              ene[i].dx = m*(random()% EVMX);
-              ene[i].dy = m*(random()% EVMY);
+              ene[i].dx = m*(rand()% EVMX);
+              ene[i].dy = m*(rand()% EVMY);
             }
      }
    }
@@ -84,13 +84,13 @@ for (i = 0; i < MAX_ENE; i++)
 
          if (ene[i].energia < 1) // agonizar y dar puntaje
             {
-            ene[i].energia -= random()%2+1;
+            ene[i].energia -= rand()%2+1;
 
                 if (abs(tim1 - retrace_count) > 3) // temporizar razonable...
                 {
                  // sumar puntos, con mensaje
-                 // sumar_puntaje_mensaje(ene[i].x,ene[i].y, random()%100+30, &jug.puntaje);
-                 jug.puntaje += random()%100+30;
+                 // sumar_puntaje_mensaje(ene[i].x,ene[i].y, rand()%100+30, &jug.puntaje);
+                 jug.puntaje += rand()%100+30;
 
                 tim1 = retrace_count;
                 // sonido explosion
@@ -98,14 +98,14 @@ for (i = 0; i < MAX_ENE; i++)
 
                 agregar_explosion(ene[i].x / 10 + al_azar(-10,10) + enemigo_bmp[0]->w/2,
                                   ene[i].y / 10 + al_azar(-10,10) + enemigo_bmp[0]->h/2,
-                                  random()%25+10,
-                                  random()%35+35+abs(ene[i].energia),
+                                  rand()%25+10,
+                                  rand()%35+35+abs(ene[i].energia),
                                   explosion_bmp);
 
                 agregar_particulas(ene[i].x/10+ al_azar(-10,10)+ enemigo_bmp[0]->w/2,
                                    ene[i].y/10+ al_azar(-10,10)+ enemigo_bmp[0]->h/2,
-                                   random()%25+20+abs(ene[i].energia),
-                                   random()%10+10,
+                                   rand()%25+20+abs(ene[i].energia),
+                                   rand()%10+10,
                                    3,
                                    particula_color,
                                    particula_color); 
@@ -219,32 +219,32 @@ void mover_disparo_ene()
                 ( dispene[i].y + shoot_enemigo_bmp->h/2 < jug.y / 10 + jugador_bmp[0]->h ) &&
                 ( dispene[i].y + shoot_enemigo_bmp->h/2 > jug.y / 10 ) )
                 {
-                    jug.energia -= random()%3+1; // restar energia (1..3)
+                    jug.energia -= rand()%3+1; // restar energia (1..3)
 
                     // explosion aqui - sonido
                     play_sample(explosion_snd, 200, 128, 1000 + al_azar(-500, 500), 0);
                     
                          agregar_explosion(dispene[i].x,
                                            dispene[i].y,
-                                           random()%25+10,
-                                           random()%25+25,
+                                           rand()%25+10,
+                                           rand()%25+25,
                                            explosion_bmp);
 
                     // sonido grito de dolor
-                    play_sample(grito_jugador_snd[random()%4], 255, 128, 1000, 0);
+                    play_sample(grito_jugador_snd[rand()%4], 255, 128, 1000, 0);
 
                     // particulas
                          agregar_particulas(dispene[i].x,
                                             dispene[i].y,
-                                            random()%25+10,
-                                            random()%10+10,
+                                            rand()%25+10,
+                                            rand()%10+10,
                                             al_azar(1,3),
                                             particula_color,
                                             particula_color); 
                     dispene[i].x = -666; // elminar disparo
 
                     // mensaje de dolor del NACHO! - DEBUG: esto es muy espefico, remover si se va a portar el engine
-                    if (random()%100 < 15) agregar_mensaje_dolor_nacho(jug.x +  random()%25+10 , jug.y + random()%25+10);
+                    if (rand()%100 < 15) agregar_mensaje_dolor_nacho(jug.x +  rand()%25+10 , jug.y + rand()%25+10);
                 }
 
             if (dispene[i].x < 0)

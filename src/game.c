@@ -103,7 +103,7 @@ while (!game_over) // loop de niveles
   hace_paisaje_estelar(fondo_bmp);
 
   // devolver algo de energia al jugador
-  jug.energia += random()%25 + 25;
+  jug.energia += rand()%25 + 25;
   if (jug.energia > 100) jug.energia = 100;
 
   // reposicionar jugador

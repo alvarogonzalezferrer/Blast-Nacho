@@ -64,13 +64,13 @@ void crear_tabla_default()
   // tabla imaginaria
   for (i=0; i<11; i++)
       {
-         puntajetbl[i].puntaje = random()%((11-i+1)*1500) + ((11-i+1)*1500);
+         puntajetbl[i].puntaje = rand()%((11-i+1)*1500) + ((11-i+1)*1500);
 
 
          sprintf(puntajetbl[i].nombrejug, "Kronoman"); // debug: nombre sencillo...
 
         /******** DEBUG: funciona OK, pero esta deshabilitado por mi egocentrismo...
-         switch (random()%5)
+         switch (rand()%5)
          {
          case 0:
             sprintf(puntajetbl[i].nombrejug, "Kronoman");

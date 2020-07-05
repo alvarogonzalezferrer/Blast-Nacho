@@ -76,7 +76,7 @@ int main(int argc, char *argv[] )
 allegro_init(); // inicializa Allegro (nunca falla, al menos hasta v4.0.0)
 
 // Inicia numeros aleatorios
-srandom(time(NULL));
+srand(time(NULL));
 
     // --------------------------------------------------------
     // Interpretar parametros
@@ -214,6 +214,6 @@ mensaje_al_salir();
 
 return 0;
 }
-
+END_OF_MAIN(); 
 
 #endif

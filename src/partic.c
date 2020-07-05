@@ -99,28 +99,28 @@ if (particula[i1].tipo == 3)
 if (particula[i1].tipo == 4) // multiple (LENTO!)
             {
             putpixel (bmp,
-                     fixtoi(particula[i1].x) + random()%20 - 10,
-                     fixtoi(particula[i1].y) + random()%20 - 10,
+                     fixtoi(particula[i1].x) + rand()%20 - 10,
+                     fixtoi(particula[i1].y) + rand()%20 - 10,
                      particula[i1].color);
             putpixel (bmp,
-                     fixtoi(particula[i1].x) + random()%20 - 10,
-                     fixtoi(particula[i1].y) + random()%20 - 10,
+                     fixtoi(particula[i1].x) + rand()%20 - 10,
+                     fixtoi(particula[i1].y) + rand()%20 - 10,
                      particula[i1].color);
             putpixel (bmp,
-                     fixtoi(particula[i1].x) + random()%20 - 10,
-                     fixtoi(particula[i1].y) + random()%20 - 10,
+                     fixtoi(particula[i1].x) + rand()%20 - 10,
+                     fixtoi(particula[i1].y) + rand()%20 - 10,
                      particula[i1].color);
             putpixel (bmp,
-                     fixtoi(particula[i1].x) + random()%20 - 10,
-                     fixtoi(particula[i1].y) + random()%20 - 10,
+                     fixtoi(particula[i1].x) + rand()%20 - 10,
+                     fixtoi(particula[i1].y) + rand()%20 - 10,
                      particula[i1].color);
             putpixel (bmp,
-                     fixtoi(particula[i1].x) + random()%20 - 10,
-                     fixtoi(particula[i1].y) + random()%20 - 10,
+                     fixtoi(particula[i1].x) + rand()%20 - 10,
+                     fixtoi(particula[i1].y) + rand()%20 - 10,
                      particula[i1].color);
             putpixel (bmp,
-                     fixtoi(particula[i1].x) + random()%20 - 10,
-                     fixtoi(particula[i1].y) + random()%20 - 10,
+                     fixtoi(particula[i1].x) + rand()%20 - 10,
+                     fixtoi(particula[i1].y) + rand()%20 - 10,
                      particula[i1].color);
             }
 
@@ -217,7 +217,7 @@ if (cantidad_particulas>MAX_PARTICULAS-1) return;
 if (cantidad_particulas + cantidad > MAX_PARTICULAS-1)
                           cantidad = MAX_PARTICULAS - 1 - cantidad_particulas;
 
-if (tipo == 5) tipo = random () % 5;
+if (tipo == 5) tipo = rand () % 5;
 
 for (i1=cantidad_particulas; i1<cantidad_particulas + cantidad; i1++)
 {
@@ -237,10 +237,10 @@ particula[i1].vida = vida;
 particula[i1].tipo = tipo;
 
 // combinar 1 y 0...
-if (tipo==6) particula[i1].tipo = random () % 2;
+if (tipo==6) particula[i1].tipo = rand () % 2;
 
 // combinar 0,1,2
-if (tipo==7) particula[i1].tipo = random () % 3;
+if (tipo==7) particula[i1].tipo = rand () % 3;
 
 
 } // fin for

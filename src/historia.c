@@ -12,7 +12,7 @@
 #ifndef HISTORIA_C
 #define HISTORIA_C
 
-#include <conio.h> // necesario luego
+//#include <conio.h> // necesario luego
 
 void mostar_historia()
 {
@@ -115,6 +115,7 @@ void mostar_historia()
 // -------------------------------------------------------- 
 void mensaje_al_salir()
 {
+	/*
   DATAFILE *p; // busqueda de info binaria
   char *txd; // datos de texto
   int i; // para el for
@@ -140,7 +141,7 @@ cprintf("\r");
 
 // clear_keybuf();
 //    while (!keypressed());
-// clear_keybuf();
+// clear_keybuf();*/
 
 }
 

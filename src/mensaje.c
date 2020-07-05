@@ -109,7 +109,7 @@ char msg[25];
 int col;
 col = makecol(255,255,255);
 
-switch (random()%6)
+switch (rand()%6)
    {
    case 0:
         col = makecol(255,255,0);
@@ -128,7 +128,7 @@ switch (random()%6)
    break;
    };
 
-switch (random()%10)
+switch (rand()%10)
    {
    case 0:
        sprintf(msg,"Argh!");
@@ -166,7 +166,7 @@ switch (random()%10)
    break;
    };
 
-agregar_mensaje(x,y,random()%15+15,0, -(random()%10+3),font_game, msg, col);
+agregar_mensaje(x,y,rand()%15+15,0, -(rand()%10+3),font_game, msg, col);
 
 
 }
@@ -180,7 +180,7 @@ char msg[25];
 int col;
 col = makecol(255,255,255);
 
-switch (random()%6)
+switch (rand()%6)
    {
    case 0:
         col = makecol(255,255,0);
@@ -199,7 +199,7 @@ switch (random()%6)
    break;
    };
 
-switch (random()%10)
+switch (rand()%10)
    {
    case 0:
        sprintf(msg,"Puta comadre!");
@@ -237,7 +237,7 @@ switch (random()%10)
    break;
    };
 
-agregar_mensaje(x,y,random()%15+15,0, -(random()%10+3),font_game, msg, col);
+agregar_mensaje(x,y,rand()%15+15,0, -(rand()%10+3),font_game, msg, col);
 }
 
 
@@ -256,7 +256,7 @@ if (sumar == 0) return; // evitar al dope...
 // si hay un puntero para sumar...
 if (punt != NULL ) *punt += sumar;
 
-switch (random()%6)
+switch (rand()%6)
    {
    case 0:
         col = makecol(255,255,0);
@@ -280,7 +280,7 @@ if (sumar > 0)
 else
     sprintf(msg,"-%i", abs(sumar));
 
-agregar_mensaje(x,y,random()%15+15,0, -(random()%10+5),font_game, msg, col);
+agregar_mensaje(x,y,rand()%15+15,0, -(rand()%10+5),font_game, msg, col);
 }
 
 #endif
